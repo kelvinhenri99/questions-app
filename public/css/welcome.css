@@ -1,0 +1,43 @@
+.questionContainerEasy,
+.questionContainerHard {
+  color: white;
+  width: 900px;
+  border: 1px solid white;
+  padding: 25px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.questionContainerEasy {
+  background-image: linear-gradient(to bottom, rgb(89, 240, 89), rgb(255, 255, 255));
+  color: black;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.questionContainerHard {
+  background-image: linear-gradient(to bottom, rgb(233, 149, 70), rgb(255, 255, 255));
+  color: black;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about {
+  color: white;
+  width: 900px;
+  border: 1px solid white;
+  padding: 25px;
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
+
+.about h1 {
+  font-size: 27px;
+}
+
+.about p {
+  font-size: 20px;
+  padding: 20px 0px;
+}
