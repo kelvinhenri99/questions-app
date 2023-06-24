@@ -1,0 +1,79 @@
+.login,
+.register {
+  width: 750px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 30px 10px;
+  color: white;
+}
+
+.login h1,
+.register h1 {
+  font-size: 33px;
+  padding: 5px;
+}
+
+.login p,
+.register p {
+  font-size: 20px;
+  padding: 5px;
+}
+
+.login h2,
+.register h2 {
+  font-size: 27px;
+  padding: 5px;
+  margin-top: 50px;
+}
+
+.gridLoginOrRegister {
+  display: grid;
+  grid-template-columns: 70px 1fr;
+  grid-gap: 10px 0px;
+  margin-top: 20px;
+}
+
+.gridLoginOrRegister ion-icon {
+  font-size: 27px;
+}
+
+.gridLoginOrRegister label {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  width: 100%;
+  text-align: left;
+  text-indent: 70px;
+}
+
+.gridLoginOrRegister input {
+  width: 100%;
+  border: 0px;
+  padding-bottom: 10px;
+  text-align: left;
+  background-color: transparent;
+  border-bottom: 1px solid white;
+  color: white;
+}
+
+.buttons {
+  width: 100%;
+  margin-top: 30px;
+  text-align: right;
+}
+
+.buttons input {
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  font-size: 17px;
+  padding: 5px 20px;
+  border-radius: 15px;
+  margin-left: 7px;
+  transition: 0.7s;
+  cursor: pointer;
+}
+
+.buttons input:hover {
+  background-color: rgb(40,40,40);
+  border-color: rgb(40,40,40);
+}
